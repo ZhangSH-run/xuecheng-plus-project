@@ -1,0 +1,80 @@
+2024-12-31 09:28:09,846 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:28:09,846 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:28:10,403 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:28:10,403 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:28:10,820 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:28:10,820 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:28:12,807 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 3.345 seconds (JVM running for 5.22)
+2024-12-31 09:28:12,807 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 3.345 seconds (JVM running for 5.22)
+2024-12-31 09:28:21,671 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:28:21,671 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:28:22,332 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:28:22,332 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:28:46,897 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:28:46,897 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:28:46,906 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-31 09:28:46,906 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-31 09:29:54,483 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:29:54,483 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:29:54,895 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:29:54,895 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:29:55,267 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:29:55,267 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:29:57,111 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 2.932 seconds (JVM running for 4.09)
+2024-12-31 09:29:57,111 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 2.932 seconds (JVM running for 4.09)
+2024-12-31 09:29:57,365 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:29:57,365 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:29:57,514 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:29:57,514 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:29:57,584 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:29:57,584 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:29:57,592 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-31 09:29:57,592 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-31 09:30:35,785 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:30:35,785 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:30:36,189 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:30:36,189 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:30:36,554 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:30:36,554 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:30:38,425 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 2.932 seconds (JVM running for 4.096)
+2024-12-31 09:30:38,425 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 2.932 seconds (JVM running for 4.096)
+2024-12-31 09:30:38,675 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:30:38,675 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:30:38,831 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:30:38,831 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:30:38,903 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:30:38,903 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:30:38,910 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-31 09:30:38,910 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-31 09:31:02,963 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:31:02,963 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:31:03,390 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:31:03,390 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:31:03,741 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:31:03,741 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:31:05,619 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 2.943 seconds (JVM running for 4.075)
+2024-12-31 09:31:05,619 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 2.943 seconds (JVM running for 4.075)
+2024-12-31 09:31:05,876 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:31:05,876 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:31:06,026 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:31:06,026 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:31:06,078 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:31:06,078 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:31:06,086 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-31 09:31:06,086 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-31 09:31:36,895 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:31:36,895 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-12-31 09:31:37,291 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:31:37,291 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-12-31 09:31:37,649 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:31:37,649 INFO [main][GenericScope.java:295] - BeanFactory id=3050ae63-a27b-36d8-8785-6a590cd41dd1
+2024-12-31 09:31:39,512 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 2.894 seconds (JVM running for 4.02)
+2024-12-31 09:31:39,512 INFO [main][StartupInfoLogger.java:61] - Started CourseBaseMapperTest in 2.894 seconds (JVM running for 4.02)
+2024-12-31 09:31:39,775 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:31:39,775 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-12-31 09:31:39,928 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:31:39,928 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-12-31 09:31:39,993 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:31:39,993 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-31 09:31:40,000 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-31 09:31:40,000 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
