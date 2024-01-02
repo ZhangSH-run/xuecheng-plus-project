@@ -14,7 +14,7 @@ import java.io.Serializable;
  */
 @Data
 @TableName("course_category")
-public class CourseCategory implements Serializable {
+public class CourseCategory implements Serializable{
 
     private static final long serialVersionUID = 1L;
 
@@ -52,6 +52,5 @@ public class CourseCategory implements Serializable {
      * 是否叶子
      */
     private Integer isLeaf;
-
 
 }
