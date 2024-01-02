@@ -46,7 +46,9 @@ public class CourseCategoryServiceImpl implements CourseCategoryService{
         for (CourseCategoryTreeDto categoryTreeDto : courseCategoryTreeDtoList) {
             if (courseCategoryTreeDto.getId().equals(categoryTreeDto.getParentid())){
                 List<CourseCategoryTreeDto> childs = findChilds(categoryTreeDto,courseCategoryTreeDtoList);
-                categoryTreeDto.setChildrenTreeNodes(childs);
+                if (childs.size() > 0){
+                    categoryTreeDto.setChildrenTreeNodes(childs);
+                }
                 childrenList.add(categoryTreeDto);
             }
         }
