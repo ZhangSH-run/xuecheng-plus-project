@@ -1,0 +1,50 @@
+2024-01-03 08:46:08,516 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-03 08:46:08,516 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-03 08:46:08,918 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-03 08:46:08,918 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-03 08:46:09,574 INFO [main][GenericScope.java:295] - BeanFactory id=faf5f130-80e8-3701-9834-7f1716df0385
+2024-01-03 08:46:09,574 INFO [main][GenericScope.java:295] - BeanFactory id=faf5f130-80e8-3701-9834-7f1716df0385
+2024-01-03 08:46:09,817 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-03 08:46:09,817 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-03 08:46:09,827 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-03 08:46:09,827 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-03 08:46:09,827 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-03 08:46:09,827 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-03 08:46:09,827 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-03 08:46:09,827 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-03 08:46:09,829 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-03 08:46:09,829 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-03 08:46:09,829 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-03 08:46:09,829 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-03 08:46:09,829 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-03 08:46:09,829 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-03 08:46:09,833 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-03 08:46:09,833 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-03 08:46:09,925 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-03 08:46:09,925 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-03 08:46:09,925 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 993 ms
+2024-01-03 08:46:09,925 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 993 ms
+2024-01-03 08:46:11,446 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-03 08:46:11,446 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-03 08:46:11,521 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-03 08:46:11,521 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-03 08:46:11,794 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-03 08:46:11,794 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-03 08:46:11,817 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-03 08:46:11,817 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-03 08:46:11,818 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-03 08:46:11,818 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-03 08:46:11,821 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-03 08:46:11,821 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-03 08:46:11,840 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-03 08:46:11,840 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-03 08:46:11,949 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 4.497 seconds (JVM running for 6.06)
+2024-01-03 08:46:11,949 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 4.497 seconds (JVM running for 6.06)
+2024-01-03 08:46:39,960 INFO [http-nio-8800-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-03 08:46:39,960 INFO [http-nio-8800-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-03 08:46:39,961 INFO [http-nio-8800-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-03 08:46:39,961 INFO [http-nio-8800-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-03 08:46:39,969 INFO [http-nio-8800-exec-1][FrameworkServlet.java:547] - Completed initialization in 8 ms
+2024-01-03 08:46:39,969 INFO [http-nio-8800-exec-1][FrameworkServlet.java:547] - Completed initialization in 8 ms
+2024-01-03 08:46:40,106 ERROR [http-nio-8800-exec-1][GlobalExceptionHandler.java:33] - 【系统异常】课程名称不能为空,适用人群内容过少
+2024-01-03 08:46:40,106 ERROR [http-nio-8800-exec-1][GlobalExceptionHandler.java:33] - 【系统异常】课程名称不能为空,适用人群内容过少

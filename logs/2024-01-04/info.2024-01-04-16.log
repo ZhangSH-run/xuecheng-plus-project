@@ -1,0 +1,236 @@
+2024-01-04 16:01:00,388 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:01:00,388 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:01:00,397 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 16:01:00,397 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 16:01:00,405 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 16:01:00,405 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 16:01:06,927 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 16:01:06,927 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 16:01:07,245 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 16:01:07,245 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 16:01:07,815 INFO [main][GenericScope.java:295] - BeanFactory id=53b56142-07f0-3505-a5e3-ed622539de77
+2024-01-04 16:01:07,815 INFO [main][GenericScope.java:295] - BeanFactory id=53b56142-07f0-3505-a5e3-ed622539de77
+2024-01-04 16:01:08,013 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-04 16:01:08,013 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-04 16:01:08,021 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:01:08,021 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:01:08,021 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-04 16:01:08,021 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-04 16:01:08,022 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-04 16:01:08,022 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-04 16:01:08,023 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-04 16:01:08,023 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-04 16:01:08,023 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-04 16:01:08,023 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-04 16:01:08,023 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-04 16:01:08,023 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-04 16:01:08,026 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-04 16:01:08,026 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-04 16:01:08,113 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-04 16:01:08,113 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-04 16:01:08,113 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 859 ms
+2024-01-04 16:01:08,113 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 859 ms
+2024-01-04 16:01:09,572 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-04 16:01:09,572 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-04 16:01:09,642 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:01:09,642 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:01:09,864 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:01:09,864 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:01:09,879 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-04 16:01:09,879 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-04 16:01:09,880 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-04 16:01:09,880 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-04 16:01:09,883 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-04 16:01:09,883 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-04 16:01:09,905 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-04 16:01:09,905 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-04 16:01:10,028 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.405 seconds (JVM running for 4.586)
+2024-01-04 16:01:10,028 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.405 seconds (JVM running for 4.586)
+2024-01-04 16:01:18,775 INFO [http-nio-8800-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04 16:01:18,775 INFO [http-nio-8800-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04 16:01:18,776 INFO [http-nio-8800-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-04 16:01:18,776 INFO [http-nio-8800-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-04 16:01:18,780 INFO [http-nio-8800-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2024-01-04 16:01:18,780 INFO [http-nio-8800-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2024-01-04 16:01:18,899 INFO [http-nio-8800-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 16:01:18,899 INFO [http-nio-8800-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 16:01:19,000 INFO [http-nio-8800-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-04 16:01:19,000 INFO [http-nio-8800-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-04 16:06:38,312 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:06:38,312 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:06:38,314 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 16:06:38,314 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 16:06:38,322 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 16:06:38,322 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 16:06:41,520 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 16:06:41,520 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 16:06:41,907 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 16:06:41,907 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 16:06:42,564 INFO [main][GenericScope.java:295] - BeanFactory id=53b56142-07f0-3505-a5e3-ed622539de77
+2024-01-04 16:06:42,564 INFO [main][GenericScope.java:295] - BeanFactory id=53b56142-07f0-3505-a5e3-ed622539de77
+2024-01-04 16:06:42,798 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-04 16:06:42,798 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-04 16:06:42,805 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:06:42,805 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:06:42,806 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-04 16:06:42,806 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-04 16:06:42,806 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-04 16:06:42,806 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-04 16:06:42,808 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-04 16:06:42,808 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-04 16:06:42,808 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-04 16:06:42,808 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-04 16:06:42,808 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-04 16:06:42,808 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-04 16:06:42,811 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-04 16:06:42,811 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-04 16:06:42,907 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-04 16:06:42,907 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-04 16:06:42,907 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 988 ms
+2024-01-04 16:06:42,907 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 988 ms
+2024-01-04 16:06:44,452 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-04 16:06:44,452 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-04 16:06:44,533 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:06:44,533 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:06:44,785 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:06:44,785 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:06:44,806 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-04 16:06:44,806 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-04 16:06:44,807 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-04 16:06:44,807 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-04 16:06:44,811 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-04 16:06:44,811 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-04 16:06:44,839 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-04 16:06:44,839 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-04 16:06:44,973 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.818 seconds (JVM running for 5.126)
+2024-01-04 16:06:44,973 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.818 seconds (JVM running for 5.126)
+2024-01-04 16:07:12,813 INFO [http-nio-8800-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04 16:07:12,813 INFO [http-nio-8800-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04 16:07:12,813 INFO [http-nio-8800-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-04 16:07:12,813 INFO [http-nio-8800-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-04 16:07:12,818 INFO [http-nio-8800-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2024-01-04 16:07:12,818 INFO [http-nio-8800-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2024-01-04 16:07:12,959 INFO [http-nio-8800-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 16:07:12,959 INFO [http-nio-8800-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 16:07:13,081 INFO [http-nio-8800-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-04 16:07:13,081 INFO [http-nio-8800-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-04 16:10:03,173 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s963ms173µs600ns).
+2024-01-04 16:10:03,173 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s963ms173µs600ns).
+2024-01-04 16:12:53,326 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:12:53,326 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:12:53,329 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 16:12:53,329 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 16:12:53,337 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 16:12:53,337 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 16:12:56,501 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 16:12:56,501 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 16:12:56,901 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 16:12:56,901 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 16:12:57,647 INFO [main][GenericScope.java:295] - BeanFactory id=53b56142-07f0-3505-a5e3-ed622539de77
+2024-01-04 16:12:57,647 INFO [main][GenericScope.java:295] - BeanFactory id=53b56142-07f0-3505-a5e3-ed622539de77
+2024-01-04 16:12:57,904 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-04 16:12:57,904 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-04 16:12:57,912 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:12:57,912 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:12:57,913 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-04 16:12:57,913 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-04 16:12:57,913 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-04 16:12:57,913 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-04 16:12:57,915 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-04 16:12:57,915 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-04 16:12:57,915 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-04 16:12:57,915 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-04 16:12:57,915 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-04 16:12:57,915 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-04 16:12:57,918 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-04 16:12:57,918 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-04 16:12:58,011 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-04 16:12:58,011 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-04 16:12:58,011 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1099 ms
+2024-01-04 16:12:58,011 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1099 ms
+2024-01-04 16:12:59,659 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-04 16:12:59,659 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-04 16:12:59,757 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:12:59,757 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:13:00,002 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:13:00,002 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:13:00,022 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-04 16:13:00,022 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-04 16:13:00,023 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-04 16:13:00,023 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-04 16:13:00,027 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-04 16:13:00,027 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-04 16:13:00,054 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-04 16:13:00,054 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-04 16:13:00,192 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 4.074 seconds (JVM running for 5.578)
+2024-01-04 16:13:00,192 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 4.074 seconds (JVM running for 5.578)
+2024-01-04 16:13:08,120 INFO [http-nio-8800-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04 16:13:08,120 INFO [http-nio-8800-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04 16:13:08,120 INFO [http-nio-8800-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-04 16:13:08,120 INFO [http-nio-8800-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-04 16:13:08,126 INFO [http-nio-8800-exec-2][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2024-01-04 16:13:08,126 INFO [http-nio-8800-exec-2][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2024-01-04 16:13:08,325 INFO [http-nio-8800-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 16:13:08,325 INFO [http-nio-8800-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 16:13:08,497 INFO [http-nio-8800-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-04 16:13:08,497 INFO [http-nio-8800-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-04 16:14:31,733 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s124ms871µs).
+2024-01-04 16:14:31,733 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s124ms871µs).
+2024-01-04 16:20:32,499 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:20:32,499 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:20:32,501 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 16:20:32,501 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-04 16:20:32,508 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 16:20:32,508 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-04 16:20:35,963 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 16:20:35,963 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-04 16:20:36,361 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 16:20:36,361 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-01-04 16:20:37,019 INFO [main][GenericScope.java:295] - BeanFactory id=53b56142-07f0-3505-a5e3-ed622539de77
+2024-01-04 16:20:37,019 INFO [main][GenericScope.java:295] - BeanFactory id=53b56142-07f0-3505-a5e3-ed622539de77
+2024-01-04 16:20:37,256 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-04 16:20:37,256 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-04 16:20:37,263 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:20:37,263 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:20:37,264 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-04 16:20:37,264 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-04 16:20:37,264 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-04 16:20:37,264 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-04 16:20:37,266 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-04 16:20:37,266 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-04 16:20:37,266 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-04 16:20:37,266 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-04 16:20:37,266 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-04 16:20:37,266 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-04 16:20:37,269 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-04 16:20:37,269 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-04 16:20:37,361 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-04 16:20:37,361 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-04 16:20:37,362 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 990 ms
+2024-01-04 16:20:37,362 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 990 ms
+2024-01-04 16:20:38,916 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-04 16:20:38,916 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-04 16:20:39,007 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:20:39,007 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-04 16:20:39,256 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:20:39,256 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-04 16:20:39,276 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-04 16:20:39,276 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-04 16:20:39,277 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-04 16:20:39,277 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-04 16:20:39,281 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-04 16:20:39,281 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-04 16:20:39,307 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-04 16:20:39,307 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-04 16:20:39,442 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.844 seconds (JVM running for 5.171)
+2024-01-04 16:20:39,442 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.844 seconds (JVM running for 5.171)
+2024-01-04 16:20:46,244 INFO [http-nio-8800-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04 16:20:46,244 INFO [http-nio-8800-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04 16:20:46,244 INFO [http-nio-8800-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-04 16:20:46,244 INFO [http-nio-8800-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-04 16:20:46,255 INFO [http-nio-8800-exec-2][FrameworkServlet.java:547] - Completed initialization in 11 ms
+2024-01-04 16:20:46,255 INFO [http-nio-8800-exec-2][FrameworkServlet.java:547] - Completed initialization in 11 ms
+2024-01-04 16:20:46,318 INFO [http-nio-8800-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 16:20:46,318 INFO [http-nio-8800-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-04 16:20:46,471 INFO [http-nio-8800-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-04 16:20:46,471 INFO [http-nio-8800-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
