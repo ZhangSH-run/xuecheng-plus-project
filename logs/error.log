@@ -1,1 +1,5 @@
-2024-01-03 08:46:40,106 ERROR [http-nio-8800-exec-1][GlobalExceptionHandler.java:33] - 【系统异常】课程名称不能为空,适用人群内容过少
+2024-01-05 17:15:47,479 ERROR [http-nio-8800-exec-5][GlobalExceptionHandler.java:20] - 【自定义异常】执行过程异常，请重试。
+2024-01-05 17:18:26,114 ERROR [http-nio-8800-exec-1][GlobalExceptionHandler.java:20] - 【自定义异常】执行过程异常，请重试。
+2024-01-05 17:22:52,454 ERROR [http-nio-8800-exec-1][GlobalExceptionHandler.java:20] - 【自定义异常】执行过程异常，请重试。
+2024-01-05 17:25:31,040 ERROR [http-nio-8800-exec-4][GlobalExceptionHandler.java:20] - 【自定义异常】执行过程异常，请重试。
+2024-01-05 17:26:49,179 ERROR [http-nio-8800-exec-3][GlobalExceptionHandler.java:20] - 【自定义异常】已提交的课程无法删除。

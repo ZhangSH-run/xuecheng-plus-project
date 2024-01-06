@@ -1,0 +1,2 @@
+2024-01-05 16:51:04,526 ERROR [http-nio-8800-exec-5][GlobalExceptionHandler.java:20] - 【自定义异常】执行过程异常，请重试。
+2024-01-05 16:51:37,030 ERROR [http-nio-8800-exec-3][GlobalExceptionHandler.java:20] - 【自定义异常】执行过程异常，请重试。

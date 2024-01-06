@@ -1,0 +1,24 @@
+2024-01-05 15:47:51,399 ERROR [http-nio-8800-exec-1][GlobalExceptionHandler.java:40] - 【系统异常】
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'
+### The error may exist in com/xuecheng/content/mapper/CourseTeacherMapper.java (best guess)
+### The error may involve com.xuecheng.content.mapper.CourseTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO course_teacher  ( course_id, teacher_name, position, introduction,  create_date )  VALUES  ( ?, ?, ?, ?,  ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'
+; Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'
+2024-01-05 15:48:20,934 ERROR [http-nio-8800-exec-2][GlobalExceptionHandler.java:40] - 【系统异常】
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'
+### The error may exist in com/xuecheng/content/mapper/CourseTeacherMapper.java (best guess)
+### The error may involve com.xuecheng.content.mapper.CourseTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO course_teacher  ( course_id, teacher_name, position, introduction,  create_date )  VALUES  ( ?, ?, ?, ?,  ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'
+; Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'
+2024-01-05 15:49:51,676 ERROR [http-nio-8800-exec-9][GlobalExceptionHandler.java:40] - 【系统异常】
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'
+### The error may exist in com/xuecheng/content/mapper/CourseTeacherMapper.java (best guess)
+### The error may involve com.xuecheng.content.mapper.CourseTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO course_teacher  ( course_id, teacher_name, position, introduction,  create_date )  VALUES  ( ?, ?, ?, ?,  ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'
+; Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '117-韩老师' for key 'courseid_teacherId_unique'

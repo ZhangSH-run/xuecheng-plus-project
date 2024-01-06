@@ -47,4 +47,10 @@ public class CourseBaseInfoController {
     public CourseBaseInfoDto modifyCourseBase(@RequestBody @Validated(ValidationGroups.Update.class) EditCourseDto editCourseDto) {
         return courseBaseInfoService.updateCourseBase(1232141425L,editCourseDto);
     }
+
+    @ApiOperation("删除课程")
+    @DeleteMapping("/course/{courseId}")
+    public void deleteCourse(@PathVariable("courseId") Long courseId){
+        courseBaseInfoService.deleteCourse(courseId);
+    }
 }
