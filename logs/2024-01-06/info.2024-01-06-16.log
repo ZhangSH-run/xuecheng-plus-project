@@ -1,0 +1,234 @@
+2024-01-06 16:02:26,957 WARN [Thread-19][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-06 16:02:26,957 WARN [Thread-25][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-06 16:02:26,957 WARN [Thread-19][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-06 16:02:26,957 WARN [Thread-25][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-06 16:02:26,959 WARN [Thread-25][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-06 16:02:26,959 WARN [Thread-25][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-06 16:02:26,960 WARN [Thread-19][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-06 16:02:26,960 WARN [Thread-19][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-06 16:02:27,444 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-06 16:02:27,444 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-06 16:02:27,445 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-06 16:02:27,445 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-06 16:02:27,448 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-06 16:02:27,448 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-06 16:02:35,461 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-06 16:02:35,461 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-06 16:02:35,462 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-06 16:02:35,462 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-06 16:02:39,732 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-06 16:02:39,732 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-06 16:02:40,823 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-06 16:02:40,823 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-06 16:02:41,551 INFO [main][GenericScope.java:295] - BeanFactory id=b1e55e8b-b950-314a-ab8e-b2b7947e0638
+2024-01-06 16:02:41,551 INFO [main][GenericScope.java:295] - BeanFactory id=b1e55e8b-b950-314a-ab8e-b2b7947e0638
+2024-01-06 16:02:41,790 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8080 (http)
+2024-01-06 16:02:41,790 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8080 (http)
+2024-01-06 16:02:41,799 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-06 16:02:41,799 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-06 16:02:41,799 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-06 16:02:41,799 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-06 16:02:41,800 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-06 16:02:41,800 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-06 16:02:41,801 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-06 16:02:41,801 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-06 16:02:41,801 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-06 16:02:41,801 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-06 16:02:41,802 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:02:41,802 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:02:41,805 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-06 16:02:41,805 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-06 16:02:41,971 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-06 16:02:41,971 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-06 16:02:41,971 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1137 ms
+2024-01-06 16:02:41,971 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1137 ms
+2024-01-06 16:02:42,087 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\javaProjects\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2024-01-06 16:02:42,087 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\javaProjects\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2024-01-06 16:02:42,089 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2024-01-06 16:02:42,089 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2024-01-06 16:02:42,102 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-01-06 16:02:42,102 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-01-06 16:02:42,115 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-01-06 16:12:11,008 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-06 16:12:11,008 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-06 16:12:12,235 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[DEFAULT_GROUP]
+2024-01-06 16:12:12,235 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[DEFAULT_GROUP]
+2024-01-06 16:12:12,239 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[DEFAULT_GROUP]
+2024-01-06 16:12:12,239 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[DEFAULT_GROUP]
+2024-01-06 16:12:12,246 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api-dev.yaml] & group[DEFAULT_GROUP]
+2024-01-06 16:12:12,246 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api-dev.yaml] & group[DEFAULT_GROUP]
+2024-01-06 16:12:12,247 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-content-api,DEFAULT_GROUP'}]
+2024-01-06 16:12:12,247 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-content-api,DEFAULT_GROUP'}]
+2024-01-06 16:12:12,266 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-06 16:12:12,266 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-06 16:12:12,989 INFO [main][GenericScope.java:295] - BeanFactory id=a1c1f2e7-9901-372c-9285-b499d3e2e92e
+2024-01-06 16:12:12,989 INFO [main][GenericScope.java:295] - BeanFactory id=a1c1f2e7-9901-372c-9285-b499d3e2e92e
+2024-01-06 16:12:13,283 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8080 (http)
+2024-01-06 16:12:13,283 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8080 (http)
+2024-01-06 16:12:13,291 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-06 16:12:13,291 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-06 16:12:13,292 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-06 16:12:13,292 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-06 16:12:13,292 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-06 16:12:13,292 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-06 16:12:13,294 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-06 16:12:13,294 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-06 16:12:13,294 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-06 16:12:13,294 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-06 16:12:13,294 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:12:13,294 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:12:13,297 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-06 16:12:13,297 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-06 16:12:13,404 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-06 16:12:13,404 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-06 16:12:13,404 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1129 ms
+2024-01-06 16:12:13,404 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1129 ms
+2024-01-06 16:12:13,503 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\javaProjects\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2024-01-06 16:12:13,503 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\javaProjects\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2024-01-06 16:12:13,505 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2024-01-06 16:12:13,505 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2024-01-06 16:12:13,519 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-01-06 16:12:13,519 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-01-06 16:12:13,528 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-01-06 16:12:13,530 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-06 16:12:13,531 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-06 16:13:13,961 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-06 16:13:13,961 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-01-06 16:13:15,130 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2024-01-06 16:13:15,130 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2024-01-06 16:13:15,134 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2024-01-06 16:13:15,134 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2024-01-06 16:13:15,152 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}]
+2024-01-06 16:13:15,152 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}]
+2024-01-06 16:13:15,171 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-06 16:13:15,171 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-06 16:13:16,011 INFO [main][GenericScope.java:295] - BeanFactory id=a1c1f2e7-9901-372c-9285-b499d3e2e92e
+2024-01-06 16:13:16,011 INFO [main][GenericScope.java:295] - BeanFactory id=a1c1f2e7-9901-372c-9285-b499d3e2e92e
+2024-01-06 16:13:16,323 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-06 16:13:16,323 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8800 (http)
+2024-01-06 16:13:16,331 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-06 16:13:16,331 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8800"]
+2024-01-06 16:13:16,331 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-06 16:13:16,331 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-06 16:13:16,332 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-06 16:13:16,332 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-06 16:13:16,333 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-06 16:13:16,333 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-06 16:13:16,333 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-06 16:13:16,333 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-06 16:13:16,333 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:13:16,333 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:13:16,336 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-06 16:13:16,336 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-06 16:13:16,441 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-06 16:13:16,441 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-06 16:13:16,441 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1261 ms
+2024-01-06 16:13:16,441 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1261 ms
+2024-01-06 16:13:18,041 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-06 16:13:18,041 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-06 16:13:18,067 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-06 16:13:18,067 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-06 16:13:18,067 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-06 16:13:18,067 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-06 16:13:18,073 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-06 16:13:18,073 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-06 16:13:18,074 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-06 16:13:18,074 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-06 16:13:18,149 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-06 16:13:18,149 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-06 16:13:18,942 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-06 16:13:18,942 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-06 16:13:19,802 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-06 16:13:19,802 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-06 16:13:19,802 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-06 16:13:19,802 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-06 16:13:19,803 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-06 16:13:19,803 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-06 16:13:19,891 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-06 16:13:19,891 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8800"]
+2024-01-06 16:13:19,912 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-06 16:13:19,912 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8800 (http) with context path '/content'
+2024-01-06 16:13:19,916 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8800, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-06 16:13:19,916 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8800, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-06 16:13:19,917 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@content-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8800, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-06 16:13:19,917 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@content-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8800, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-06 16:13:19,925 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.137.1:8800 register finished
+2024-01-06 16:13:19,925 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.137.1:8800 register finished
+2024-01-06 16:13:20,611 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-06 16:13:20,611 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-06 16:13:20,615 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-06 16:13:20,615 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-06 16:13:20,647 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-06 16:13:20,647 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-06 16:13:20,800 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 7.918 seconds (JVM running for 9.313)
+2024-01-06 16:13:20,800 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 7.918 seconds (JVM running for 9.313)
+2024-01-06 16:13:20,803 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2024-01-06 16:13:20,803 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2024-01-06 16:13:20,804 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-06 16:13:20,804 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-06 16:13:20,804 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2024-01-06 16:13:20,804 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2024-01-06 16:13:20,804 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2024-01-06 16:13:20,804 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2024-01-06 16:13:20,805 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-06 16:13:20,805 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-06 16:13:20,805 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-06 16:13:20,805 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-06 16:13:20,921 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8800#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.137.1","port":8800,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-01-06 16:13:20,921 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8800#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.137.1","port":8800,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-01-06 16:13:20,925 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8800#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.137.1","port":8800,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-01-06 16:13:20,925 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8800#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.137.1","port":8800,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-01-06 16:22:13,670 INFO [http-nio-8800-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:22:13,670 INFO [http-nio-8800-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:22:13,670 INFO [http-nio-8800-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:22:13,670 INFO [http-nio-8800-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:22:13,676 INFO [http-nio-8800-exec-2][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2024-01-06 16:22:13,676 INFO [http-nio-8800-exec-2][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2024-01-06 16:22:26,993 INFO [http-nio-8800-exec-8][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-06 16:22:26,993 INFO [http-nio-8800-exec-8][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-01-06 16:22:27,304 INFO [http-nio-8800-exec-8][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-01-06 16:22:27,304 INFO [http-nio-8800-exec-8][HikariDataSource.java:123] - HikariPool-1 - Start completed.
