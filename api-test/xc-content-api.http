@@ -1,5 +1,5 @@
 ###  查询课程信息
-POST http://{{content_host}}/content/course/list?pageNo=1&pageSize=3
+POST http://{{gateway_host}}/content/course/list?pageNo=1&pageSize=3
 Content-Type: application/json
 
 {
