@@ -1,140 +1,822 @@
-2024-01-13 16:17:10,144 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
-2024-01-13 16:17:10,144 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
-2024-01-13 16:17:10,154 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-01-13 16:17:10,154 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-01-13 16:17:10,157 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2024-01-13 16:17:10,157 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2024-01-13 16:17:10,165 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2024-01-13 16:17:10,165 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2024-01-13 16:17:10,205 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2024-01-13 16:17:10,205 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2024-01-13 16:17:10,206 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2024-01-13 16:17:10,206 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2024-01-13 16:17:10,207 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
-2024-01-13 16:17:10,207 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
-2024-01-13 16:17:10,207 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
-2024-01-13 16:17:10,207 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
-2024-01-13 16:17:10,209 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2024-01-13 16:17:10,209 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2024-01-13 16:17:10,209 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
-2024-01-13 16:17:10,209 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
-2024-01-13 16:17:10,260 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2024-01-13 16:17:10,260 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
-2024-01-13 16:17:10,264 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2024-01-13 16:17:10,264 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
-2024-01-13 16:17:10,265 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@content-api:192.168.137.1:8800 from beat map.
-2024-01-13 16:17:10,265 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@content-api:192.168.137.1:8800 from beat map.
-2024-01-13 16:17:10,265 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@content-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8800, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
-2024-01-13 16:17:10,265 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@content-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8800, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
-2024-01-13 16:17:10,269 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2024-01-13 16:17:10,269 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
-2024-01-13 16:17:10,270 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
-2024-01-13 16:17:10,270 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
-2024-01-13 16:17:10,632 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
-2024-01-13 16:17:10,632 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
-2024-01-13 16:17:10,632 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
-2024-01-13 16:17:10,632 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
-2024-01-13 16:17:11,265 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8800#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.137.1","port":8800,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2024-01-13 16:17:11,265 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8800#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.137.1","port":8800,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2024-01-13 16:17:11,266 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@content-api@@DEFAULT -> []
-2024-01-13 16:17:11,266 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@content-api@@DEFAULT -> []
-2024-01-13 16:17:11,963 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
-2024-01-13 16:17:11,963 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
-2024-01-13 16:17:11,963 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
-2024-01-13 16:17:11,963 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
-2024-01-13 16:17:12,298 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
-2024-01-13 16:17:12,298 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
-2024-01-13 16:17:12,299 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
-2024-01-13 16:17:12,299 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
-2024-01-13 16:17:13,275 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
-2024-01-13 16:17:13,275 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
-2024-01-13 16:17:13,640 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
-2024-01-13 16:17:13,640 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
-2024-01-13 16:17:14,457 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@media-api -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2024-01-13 16:17:14,457 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@media-api -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2024-01-13 16:17:14,458 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@media-api -> []
-2024-01-13 16:17:14,458 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@media-api -> []
-2024-01-13 16:17:14,977 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.137.1#8800#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.137.1","port":8800,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2024-01-13 16:17:14,977 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@content-api -> [{"instanceId":"192.168.137.1#8800#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.137.1","port":8800,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2024-01-13 16:17:14,978 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@content-api -> []
-2024-01-13 16:17:14,978 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@content-api -> []
-2024-01-13 16:17:15,324 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
-2024-01-13 16:17:15,324 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
-2024-01-13 16:17:16,296 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
-2024-01-13 16:17:16,296 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
-2024-01-13 16:17:16,297 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
-2024-01-13 16:17:16,297 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
-2024-01-13 16:17:16,297 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
-2024-01-13 16:17:16,297 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
-2024-01-13 16:17:16,297 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
-2024-01-13 16:17:16,297 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
-2024-01-13 16:17:16,297 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
-2024-01-13 16:17:16,297 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
-2024-01-13 16:17:16,298 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2024-01-13 16:17:16,298 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2024-01-13 16:17:16,298 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
-2024-01-13 16:17:16,298 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
-2024-01-13 16:17:16,298 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
-2024-01-13 16:17:16,298 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
-2024-01-13 16:17:16,298 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
-2024-01-13 16:17:16,298 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
-2024-01-13 16:17:16,298 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
-2024-01-13 16:17:16,298 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
-2024-01-13 16:17:16,298 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2024-01-13 16:17:16,298 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2024-01-13 16:17:16,299 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-01-13 16:17:16,299 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-01-13 16:17:16,303 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2024-01-13 16:17:16,303 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2024-01-13 16:17:16,309 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2024-01-13 16:17:16,309 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2024-01-13 16:17:16,666 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
-2024-01-13 16:17:16,666 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
-2024-01-13 16:17:16,667 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
-2024-01-13 16:17:16,667 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
-2024-01-13 16:17:16,667 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
-2024-01-13 16:17:16,667 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
-2024-01-13 16:17:16,667 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
-2024-01-13 16:17:16,667 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
-2024-01-13 16:17:16,667 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
-2024-01-13 16:17:16,667 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
-2024-01-13 16:17:16,668 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2024-01-13 16:17:16,668 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2024-01-13 16:17:16,668 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
-2024-01-13 16:17:16,668 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
-2024-01-13 16:17:16,668 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
-2024-01-13 16:17:16,668 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
-2024-01-13 16:17:16,668 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
-2024-01-13 16:17:16,668 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
-2024-01-13 16:17:16,669 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
-2024-01-13 16:17:16,669 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
-2024-01-13 16:17:16,669 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2024-01-13 16:17:16,669 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2024-01-13 16:17:16,670 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-01-13 16:17:16,670 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-01-13 16:17:16,672 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2024-01-13 16:17:16,672 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2024-01-13 16:17:16,689 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2024-01-13 16:17:16,689 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2024-01-13 16:17:18,344 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
-2024-01-13 16:17:18,344 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
-2024-01-13 16:17:18,344 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
-2024-01-13 16:17:18,344 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
-2024-01-13 16:17:18,344 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
-2024-01-13 16:17:18,344 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
-2024-01-13 16:17:18,345 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
-2024-01-13 16:17:18,345 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
-2024-01-13 16:17:18,345 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
-2024-01-13 16:17:18,345 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
-2024-01-13 16:17:18,345 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2024-01-13 16:17:18,345 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
-2024-01-13 16:17:18,345 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
-2024-01-13 16:17:18,345 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
-2024-01-13 16:17:18,346 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
-2024-01-13 16:17:18,346 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
-2024-01-13 16:17:18,346 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
-2024-01-13 16:17:18,346 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
-2024-01-13 16:17:18,346 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
-2024-01-13 16:17:18,346 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
-2024-01-13 16:17:18,346 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
-2024-01-13 16:17:18,346 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:00:40,147 WARN [Thread-34][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:00:40,147 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:00:40,147 WARN [Thread-34][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:00:40,147 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:00:40,159 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:00:40,159 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:00:40,159 WARN [Thread-34][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:00:40,159 WARN [Thread-34][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:00:40,815 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:00:40,815 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:00:40,817 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:00:40,817 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8831 from beat map.
+2024-01-15 12:00:40,817 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:00:40,817 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8831 from beat map.
+2024-01-15 12:00:40,817 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8831, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:00:40,817 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8831, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:00:40,820 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:00:40,821 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:00:40,820 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:00:40,821 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:00:40,886 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:00:40,886 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:00:40,888 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:00:40,888 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:00:40,888 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
+2024-01-15 12:00:40,888 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
+2024-01-15 12:00:40,889 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:00:40,889 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:00:40,893 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:00:40,893 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:00:40,894 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:00:40,894 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:00:42,448 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:00:42,448 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:00:42,448 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:00:42,448 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:00:43,912 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:00:43,912 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:00:43,912 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:00:43,912 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:00:45,484 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:00:45,484 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:00:46,933 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:00:46,933 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:00:48,512 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:00:48,512 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:00:48,512 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:00:48,512 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:00:48,513 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:00:48,513 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:00:48,513 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:00:48,513 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:00:48,513 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:00:48,513 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:00:48,514 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:00:48,514 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:00:48,514 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:00:48,514 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:00:48,514 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:00:48,514 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:00:48,514 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:00:48,514 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:00:48,514 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:00:48,514 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:00:48,515 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:00:48,515 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:00:48,516 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:00:48,516 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:00:48,517 INFO [Thread-26][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:00:48,517 INFO [Thread-26][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:00:48,531 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:9998/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:00:48,531 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:9998/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:00:48,532 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:00:48,532 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:00:48,538 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:00:48,538 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:00:48,538 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:00:48,538 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:00:48,538 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:00:48,538 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:00:48,539 INFO [Thread-25][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:00:48,539 INFO [Thread-25][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:00:49,982 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:00:49,982 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:00:49,982 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:00:49,982 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:00:50,025 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:00:50,025 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:00:50,030 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:00:50,030 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:00:50,032 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:00:50,032 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:00:50,033 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:00:50,033 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:00:50,033 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:00:50,033 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:00:50,034 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:00:50,034 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:00:50,035 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:00:50,035 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:00:50,035 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:00:50,035 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:00:50,036 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:00:50,036 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:00:50,038 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:00:50,038 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:00:50,043 INFO [Thread-28][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:00:50,043 INFO [Thread-28][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:00:50,059 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:00:50,059 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:00:50,059 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:00:50,059 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:00:50,060 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:00:50,060 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:00:50,060 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:00:50,060 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:00:50,061 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:00:50,061 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:00:50,063 INFO [Thread-27][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:00:50,063 INFO [Thread-27][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:01:18,406 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:01:18,406 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:01:19,260 INFO [main][GenericScope.java:295] - BeanFactory id=a15b6b24-5833-3d3f-bb63-b5b6d094d8ce
+2024-01-15 12:01:19,260 INFO [main][GenericScope.java:295] - BeanFactory id=a15b6b24-5833-3d3f-bb63-b5b6d094d8ce
+2024-01-15 12:01:19,513 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8830 (http)
+2024-01-15 12:01:19,513 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8830 (http)
+2024-01-15 12:01:19,522 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:01:19,522 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:01:19,522 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-15 12:01:19,522 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-15 12:01:19,522 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-15 12:01:19,522 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-15 12:01:19,524 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-15 12:01:19,524 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-15 12:01:19,524 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-15 12:01:19,524 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-15 12:01:19,524 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-15 12:01:19,524 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-15 12:01:19,527 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-15 12:01:19,527 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-15 12:01:19,655 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 12:01:19,655 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 12:01:19,655 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1237 ms
+2024-01-15 12:01:19,655 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1237 ms
+2024-01-15 12:01:21,776 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-15 12:01:21,776 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-15 12:01:21,797 INFO [main][XxlJobConfig.java:45] - >>>>>>>>>>> xxl-job config init.
+2024-01-15 12:01:21,797 INFO [main][XxlJobConfig.java:45] - >>>>>>>>>>> xxl-job config init.
+2024-01-15 12:01:21,806 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:01:21,806 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:01:21,806 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:01:21,806 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:01:21,810 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:01:21,810 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:01:21,810 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:01:21,810 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:01:21,896 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:01:21,896 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:01:22,656 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:01:22,656 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:01:23,480 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@be083e1[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:01:23,480 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@be083e1[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:01:23,480 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@3164d5aa[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:01:23,480 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@3164d5aa[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:01:23,580 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-15 12:01:23,580 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-15 12:01:23,580 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-15 12:01:23,580 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-15 12:01:23,581 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-15 12:01:23,581 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-15 12:01:23,657 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:01:23,657 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:01:23,670 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8830 (http) with context path '/media'
+2024-01-15 12:01:23,670 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8830 (http) with context path '/media'
+2024-01-15 12:01:23,674 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8830, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-15 12:01:23,674 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8830, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-15 12:01:23,675 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-15 12:01:23,675 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-15 12:01:23,679 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.137.1:8830 register finished
+2024-01-15 12:01:23,679 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.137.1:8830 register finished
+2024-01-15 12:01:24,333 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-15 12:01:24,333 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-15 12:01:24,336 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-15 12:01:24,336 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-15 12:01:24,364 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-15 12:01:24,364 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-15 12:01:24,476 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 8.448 seconds (JVM running for 9.848)
+2024-01-15 12:01:24,476 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 8.448 seconds (JVM running for 9.848)
+2024-01-15 12:01:24,479 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-01-15 12:01:24,479 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-01-15 12:01:24,480 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:01:24,480 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:01:24,480 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:01:24,480 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:01:24,480 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:01:24,480 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:01:24,481 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:01:24,481 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:01:24,481 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:01:24,481 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:01:24,482 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-01-15 12:01:24,482 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-01-15 12:01:24,482 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-01-15 12:01:24,482 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-01-15 12:01:24,482 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-01-15 12:01:24,482 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-01-15 12:01:24,482 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:01:24,482 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:01:24,542 INFO [Thread-26][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2024-01-15 12:01:24,542 INFO [Thread-26][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2024-01-15 12:01:24,676 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:01:24,676 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:01:24,680 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:01:24,680 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:05:52,415 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][ClientWorker.java:430] - [fixed-192.168.30.100_8848-dev] [polling-resp] config changed. dataId=media-service-dev.yaml, group=xuecheng-plus-project, tenant=dev
+2024-01-15 12:05:52,415 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][ClientWorker.java:430] - [fixed-192.168.30.100_8848-dev] [polling-resp] config changed. dataId=media-service-dev.yaml, group=xuecheng-plus-project, tenant=dev
+2024-01-15 12:05:52,415 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][ClientWorker.java:537] - get changedGroupKeys:[media-service-dev.yaml+xuecheng-plus-project+dev]
+2024-01-15 12:05:52,415 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][ClientWorker.java:537] - get changedGroupKeys:[media-service-dev.yaml+xuecheng-plus-project+dev]
+2024-01-15 12:05:52,424 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][ClientWorker.java:556] - [fixed-192.168.30.100_8848-dev] [data-received] dataId=media-service-dev.yaml, group=xuecheng-plus-project, tenant=dev, md5=f325d90010deca9317b39a1be7533cb2, content=spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168...., type=yaml
+2024-01-15 12:05:52,424 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][ClientWorker.java:556] - [fixed-192.168.30.100_8848-dev] [data-received] dataId=media-service-dev.yaml, group=xuecheng-plus-project, tenant=dev, md5=f325d90010deca9317b39a1be7533cb2, content=spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168...., type=yaml
+2024-01-15 12:05:52,424 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][CacheData.java:198] - [fixed-192.168.30.100_8848-dev] [notify-context] dataId=media-service-dev.yaml, group=xuecheng-plus-project, md5=f325d90010deca9317b39a1be7533cb2
+2024-01-15 12:05:52,424 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][CacheData.java:198] - [fixed-192.168.30.100_8848-dev] [notify-context] dataId=media-service-dev.yaml, group=xuecheng-plus-project, md5=f325d90010deca9317b39a1be7533cb2
+2024-01-15 12:05:53,829 WARN [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api] & group[xuecheng-plus-project]
+2024-01-15 12:05:53,829 WARN [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api] & group[xuecheng-plus-project]
+2024-01-15 12:05:53,836 WARN [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api.yaml] & group[xuecheng-plus-project]
+2024-01-15 12:05:53,836 WARN [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api.yaml] & group[xuecheng-plus-project]
+2024-01-15 12:05:53,841 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-media-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-media-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-media-api,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-media-service-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,xuecheng-plus-common'}]
+2024-01-15 12:05:53,841 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-media-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-media-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-media-api,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-media-service-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-logging-dev.yaml,xuecheng-plus-common'}]
+2024-01-15 12:05:53,857 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:05:53,857 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:05:53,865 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][StartupInfoLogger.java:61] - Started application in 1.438 seconds (JVM running for 279.238)
+2024-01-15 12:05:53,865 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][StartupInfoLogger.java:61] - Started application in 1.438 seconds (JVM running for 279.238)
+2024-01-15 12:05:53,901 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][RefreshEventListener.java:73] - Refresh keys changed: [xxl.job.executor.port]
+2024-01-15 12:05:53,901 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][RefreshEventListener.java:73] - Refresh keys changed: [xxl.job.executor.port]
+2024-01-15 12:05:53,901 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][CacheData.java:222] - [fixed-192.168.30.100_8848-dev] [notify-ok] dataId=media-service-dev.yaml, group=xuecheng-plus-project, md5=f325d90010deca9317b39a1be7533cb2, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@1fcffaa6 
+2024-01-15 12:05:53,901 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][CacheData.java:222] - [fixed-192.168.30.100_8848-dev] [notify-ok] dataId=media-service-dev.yaml, group=xuecheng-plus-project, md5=f325d90010deca9317b39a1be7533cb2, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@1fcffaa6 
+2024-01-15 12:05:53,901 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][CacheData.java:248] - [fixed-192.168.30.100_8848-dev] [notify-listener] time cost=1477ms in ClientWorker, dataId=media-service-dev.yaml, group=xuecheng-plus-project, md5=f325d90010deca9317b39a1be7533cb2, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@1fcffaa6 
+2024-01-15 12:05:53,901 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.30.100_8848-dev][CacheData.java:248] - [fixed-192.168.30.100_8848-dev] [notify-listener] time cost=1477ms in ClientWorker, dataId=media-service-dev.yaml, group=xuecheng-plus-project, md5=f325d90010deca9317b39a1be7533cb2, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@1fcffaa6 
+2024-01-15 12:05:59,770 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:05:59,770 WARN [Thread-32][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:05:59,770 WARN [Thread-32][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:05:59,770 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:05:59,771 WARN [Thread-32][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:05:59,771 WARN [Thread-32][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:05:59,771 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:05:59,771 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:06:00,319 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:06:00,319 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:06:00,320 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:06:00,320 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:06:00,321 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
+2024-01-15 12:06:00,321 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
+2024-01-15 12:06:00,322 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:06:00,322 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:06:00,324 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:06:00,324 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:06:00,324 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:06:00,324 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:06:03,343 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:06:03,343 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:06:03,343 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:06:03,343 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:06:04,970 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:06:04,970 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:06:04,971 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@media-api@@DEFAULT -> []
+2024-01-15 12:06:04,971 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@media-api@@DEFAULT -> []
+2024-01-15 12:06:04,972 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:06:04,972 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:06:07,999 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:06:08,000 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:06:08,000 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:06:08,000 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:06:08,000 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:06:08,000 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:06:08,000 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:06:08,000 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:06:08,000 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:06:08,000 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:06:08,000 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:06:08,001 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:06:08,001 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:06:08,002 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:06:08,002 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:06:08,004 INFO [Thread-26][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:06:08,004 INFO [Thread-26][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:06:08,007 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:06:08,007 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:06:08,007 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:06:08,007 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:06:08,007 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:06:08,007 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:06:08,007 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:06:08,007 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:06:08,008 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:06:08,008 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:06:08,008 INFO [Thread-25][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:06:08,008 INFO [Thread-25][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:06:31,546 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:06:31,546 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:06:32,277 INFO [main][GenericScope.java:295] - BeanFactory id=a15b6b24-5833-3d3f-bb63-b5b6d094d8ce
+2024-01-15 12:06:32,277 INFO [main][GenericScope.java:295] - BeanFactory id=a15b6b24-5833-3d3f-bb63-b5b6d094d8ce
+2024-01-15 12:06:32,550 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8830 (http)
+2024-01-15 12:06:32,550 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8830 (http)
+2024-01-15 12:06:32,558 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:06:32,558 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:06:32,559 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-15 12:06:32,559 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-15 12:06:32,559 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-15 12:06:32,559 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-15 12:06:32,560 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-15 12:06:32,560 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-15 12:06:32,560 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-15 12:06:32,560 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-15 12:06:32,561 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-15 12:06:32,561 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-15 12:06:32,564 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-15 12:06:32,564 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-15 12:06:32,677 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 12:06:32,677 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 12:06:32,678 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1121 ms
+2024-01-15 12:06:32,678 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1121 ms
+2024-01-15 12:06:34,625 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-15 12:06:34,625 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-15 12:06:34,643 INFO [main][XxlJobConfig.java:45] - >>>>>>>>>>> xxl-job config init.
+2024-01-15 12:06:34,643 INFO [main][XxlJobConfig.java:45] - >>>>>>>>>>> xxl-job config init.
+2024-01-15 12:06:34,651 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:06:34,651 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:06:34,651 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:06:34,651 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:06:34,654 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:06:34,654 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:06:34,654 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:06:34,654 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:06:34,730 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:06:34,730 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:06:35,453 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:06:35,453 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:06:36,274 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4af7dd6a[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:06:36,274 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4af7dd6a[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:06:36,275 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4607d78b[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:06:36,275 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4607d78b[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:06:36,362 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-15 12:06:36,362 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-15 12:06:36,362 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-15 12:06:36,362 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-15 12:06:36,363 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-15 12:06:36,363 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-15 12:06:36,430 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:06:36,430 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:06:36,444 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8830 (http) with context path '/media'
+2024-01-15 12:06:36,444 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8830 (http) with context path '/media'
+2024-01-15 12:06:36,447 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8830, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-15 12:06:36,447 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8830, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-15 12:06:36,448 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-15 12:06:36,448 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-15 12:06:36,451 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.137.1:8830 register finished
+2024-01-15 12:06:36,451 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.137.1:8830 register finished
+2024-01-15 12:06:37,118 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-15 12:06:37,118 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-15 12:06:37,120 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-15 12:06:37,120 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-15 12:06:37,141 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-15 12:06:37,141 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-15 12:06:37,238 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 7.899 seconds (JVM running for 9.215)
+2024-01-15 12:06:37,238 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 7.899 seconds (JVM running for 9.215)
+2024-01-15 12:06:37,241 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-01-15 12:06:37,241 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-01-15 12:06:37,241 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:06:37,241 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:06:37,242 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:06:37,242 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:06:37,242 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:06:37,242 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:06:37,243 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:06:37,243 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:06:37,243 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:06:37,243 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:06:37,243 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-01-15 12:06:37,243 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-01-15 12:06:37,243 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-01-15 12:06:37,243 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-01-15 12:06:37,244 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-01-15 12:06:37,244 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-01-15 12:06:37,244 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:06:37,244 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:06:37,338 INFO [Thread-24][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8831
+2024-01-15 12:06:37,338 INFO [Thread-24][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8831
+2024-01-15 12:06:37,443 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:06:37,443 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:06:37,447 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:06:37,447 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:14:18,026 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:14:18,026 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:14:18,026 WARN [Thread-30][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:14:18,026 WARN [Thread-30][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:14:18,027 WARN [Thread-30][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:14:18,027 WARN [Thread-30][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:14:18,027 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:14:18,027 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:14:18,503 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:14:18,503 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:14:18,505 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:14:18,505 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:14:18,505 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
+2024-01-15 12:14:18,505 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
+2024-01-15 12:14:18,505 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:14:18,505 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:14:18,508 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:14:18,508 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:14:18,508 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:14:18,508 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:14:21,535 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:14:21,535 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:14:21,536 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:14:21,536 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:14:24,562 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:14:24,562 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:14:27,575 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:14:27,575 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:14:27,576 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:14:27,576 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:14:27,576 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:14:27,576 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:14:27,576 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:14:27,576 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:14:27,576 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:14:27,576 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:14:27,577 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:14:27,577 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:14:27,577 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:14:27,577 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:14:27,577 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:14:27,577 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:14:27,577 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:14:27,577 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:14:27,577 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:14:27,577 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:14:27,578 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:14:27,578 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:14:27,579 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:14:27,579 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:14:27,580 INFO [Thread-24][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:14:27,580 INFO [Thread-24][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:14:27,586 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:8831/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:14:27,586 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:8831/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:14:27,586 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:14:27,586 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:14:27,586 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:14:27,586 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:14:27,587 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:14:27,587 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:14:27,587 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:14:27,587 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:14:27,587 INFO [Thread-23][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:14:27,587 INFO [Thread-23][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:14:33,428 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:14:33,428 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:14:34,303 INFO [main][GenericScope.java:295] - BeanFactory id=a15b6b24-5833-3d3f-bb63-b5b6d094d8ce
+2024-01-15 12:14:34,303 INFO [main][GenericScope.java:295] - BeanFactory id=a15b6b24-5833-3d3f-bb63-b5b6d094d8ce
+2024-01-15 12:14:34,569 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8830 (http)
+2024-01-15 12:14:34,569 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8830 (http)
+2024-01-15 12:14:34,577 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:14:34,577 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:14:34,578 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-15 12:14:34,578 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-15 12:14:34,578 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-15 12:14:34,578 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-15 12:14:34,579 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-15 12:14:34,579 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-15 12:14:34,580 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-15 12:14:34,580 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-15 12:14:34,580 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-15 12:14:34,580 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-15 12:14:34,583 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-15 12:14:34,583 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-15 12:14:34,700 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 12:14:34,700 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 12:14:34,700 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1262 ms
+2024-01-15 12:14:34,700 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1262 ms
+2024-01-15 12:14:36,795 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-15 12:14:36,795 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-15 12:14:36,815 INFO [main][XxlJobConfig.java:45] - >>>>>>>>>>> xxl-job config init.
+2024-01-15 12:14:36,815 INFO [main][XxlJobConfig.java:45] - >>>>>>>>>>> xxl-job config init.
+2024-01-15 12:14:36,824 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:14:36,824 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:14:36,825 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:14:36,825 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:14:36,828 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:14:36,828 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:14:36,828 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:14:36,828 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:14:36,914 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:14:36,914 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:14:37,671 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:14:37,671 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:14:38,514 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1eda309d[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:14:38,514 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1eda309d[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:14:38,514 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@248d2cec[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:14:38,514 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@248d2cec[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:14:38,614 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-15 12:14:38,614 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-15 12:14:38,614 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-15 12:14:38,614 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-15 12:14:38,615 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-15 12:14:38,615 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-15 12:14:38,695 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:14:38,695 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8830"]
+2024-01-15 12:14:38,709 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8830 (http) with context path '/media'
+2024-01-15 12:14:38,709 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8830 (http) with context path '/media'
+2024-01-15 12:14:38,713 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8830, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-15 12:14:38,713 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8830, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-15 12:14:38,714 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-15 12:14:38,714 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-15 12:14:38,718 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.137.1:8830 register finished
+2024-01-15 12:14:38,718 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.137.1:8830 register finished
+2024-01-15 12:14:39,392 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-15 12:14:39,392 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-15 12:14:39,395 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-15 12:14:39,395 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-15 12:14:39,422 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-15 12:14:39,422 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-15 12:14:39,546 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 8.612 seconds (JVM running for 10.139)
+2024-01-15 12:14:39,546 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 8.612 seconds (JVM running for 10.139)
+2024-01-15 12:14:39,550 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-01-15 12:14:39,550 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-01-15 12:14:39,551 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:14:39,551 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:14:39,551 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:14:39,551 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:14:39,551 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:14:39,551 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:14:39,552 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:14:39,552 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:14:39,552 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:14:39,552 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:14:39,553 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-01-15 12:14:39,553 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-01-15 12:14:39,553 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-01-15 12:14:39,553 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-01-15 12:14:39,553 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-01-15 12:14:39,553 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-01-15 12:14:39,553 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:14:39,553 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:14:39,608 INFO [Thread-25][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8831
+2024-01-15 12:14:39,608 INFO [Thread-25][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8831
+2024-01-15 12:14:39,717 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:14:39,717 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:14:39,722 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:14:39,722 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:15:56,728 INFO [xxl-job, EmbedServer bizThreadPool-370115890][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:3, handler:com.xxl.job.core.handler.impl.MethodJobHandler@1eda309d[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:15:56,728 INFO [xxl-job, EmbedServer bizThreadPool-370115890][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:3, handler:com.xxl.job.core.handler.impl.MethodJobHandler@1eda309d[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:16:11,967 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:16:11,967 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-01-15 12:16:12,815 INFO [main][GenericScope.java:295] - BeanFactory id=a15b6b24-5833-3d3f-bb63-b5b6d094d8ce
+2024-01-15 12:16:12,815 INFO [main][GenericScope.java:295] - BeanFactory id=a15b6b24-5833-3d3f-bb63-b5b6d094d8ce
+2024-01-15 12:16:13,064 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8832 (http)
+2024-01-15 12:16:13,064 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8832 (http)
+2024-01-15 12:16:13,071 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8832"]
+2024-01-15 12:16:13,071 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8832"]
+2024-01-15 12:16:13,072 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-15 12:16:13,072 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-01-15 12:16:13,073 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-15 12:16:13,073 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-01-15 12:16:13,074 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-15 12:16:13,074 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2024-01-15 12:16:13,075 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-15 12:16:13,075 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-15 12:16:13,075 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-15 12:16:13,075 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-15 12:16:13,078 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-15 12:16:13,078 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2024-01-15 12:16:13,194 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 12:16:13,194 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-01-15 12:16:13,194 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1217 ms
+2024-01-15 12:16:13,194 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1217 ms
+2024-01-15 12:16:15,352 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-15 12:16:15,352 INFO [main][WebMvcPropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-01-15 12:16:15,373 INFO [main][XxlJobConfig.java:45] - >>>>>>>>>>> xxl-job config init.
+2024-01-15 12:16:15,373 INFO [main][XxlJobConfig.java:45] - >>>>>>>>>>> xxl-job config init.
+2024-01-15 12:16:15,382 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:16:15,382 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:16:15,382 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:16:15,382 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:16:15,386 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:16:15,386 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-01-15 12:16:15,386 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:16:15,386 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-01-15 12:16:15,470 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:16:15,470 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:16:16,216 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:16:16,216 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:16:17,052 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@622ba721[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:16:17,052 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@622ba721[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:16:17,053 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@6b2f7527[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:16:17,053 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@6b2f7527[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-01-15 12:16:17,160 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-15 12:16:17,160 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-01-15 12:16:17,160 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-15 12:16:17,160 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-01-15 12:16:17,161 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-15 12:16:17,161 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-01-15 12:16:17,250 INFO [main][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,250 INFO [main][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,254 INFO [main][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,254 INFO [main][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,257 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8832"]
+2024-01-15 12:16:17,257 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8832"]
+2024-01-15 12:16:17,273 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8832 (http) with context path '/media'
+2024-01-15 12:16:17,273 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8832 (http) with context path '/media'
+2024-01-15 12:16:17,277 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8832, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-15 12:16:17,277 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8832, ip='192.168.137.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-01-15 12:16:17,278 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8832, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-15 12:16:17,278 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8832, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-01-15 12:16:17,281 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.137.1:8832 register finished
+2024-01-15 12:16:17,281 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.137.1:8832 register finished
+2024-01-15 12:16:17,722 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@media-api\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api\",\"ip\":\"192.168.137.1\",\"port\":8832,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000},{\"instanceId\":\"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api\",\"ip\":\"192.168.137.1\",\"port\":8830,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1705292096075,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8771691957314} from /192.168.30.100
+2024-01-15 12:16:17,722 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@media-api\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api\",\"ip\":\"192.168.137.1\",\"port\":8832,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000},{\"instanceId\":\"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api\",\"ip\":\"192.168.137.1\",\"port\":8830,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1705292096075,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8771691616397} from /192.168.30.100
+2024-01-15 12:16:17,722 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@media-api\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api\",\"ip\":\"192.168.137.1\",\"port\":8832,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000},{\"instanceId\":\"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api\",\"ip\":\"192.168.137.1\",\"port\":8830,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1705292096075,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8771691616397} from /192.168.30.100
+2024-01-15 12:16:17,722 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@media-api\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api\",\"ip\":\"192.168.137.1\",\"port\":8832,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000},{\"instanceId\":\"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api\",\"ip\":\"192.168.137.1\",\"port\":8830,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1705292096075,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8771691957314} from /192.168.30.100
+2024-01-15 12:16:17,725 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,725 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,725 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,725 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,726 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(2) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000},{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,726 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(2) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000},{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,726 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(2) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000},{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,726 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(2) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000},{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:16:17,947 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-15 12:16:17,947 INFO [main][DocumentationPluginsBootstrapper.java:93] - Documentation plugins bootstrapped
+2024-01-15 12:16:17,951 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-15 12:16:17,951 INFO [main][AbstractDocumentationPluginsBootstrapper.java:79] - Found 1 custom documentation plugin(s)
+2024-01-15 12:16:17,985 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-15 12:16:17,985 INFO [main][ApiListingReferenceScanner.java:44] - Scanning for api listing references
+2024-01-15 12:16:18,116 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 8.473 seconds (JVM running for 9.886)
+2024-01-15 12:16:18,116 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 8.473 seconds (JVM running for 9.886)
+2024-01-15 12:16:18,120 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-01-15 12:16:18,120 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-01-15 12:16:18,121 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:16:18,121 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:16:18,121 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:16:18,121 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:16:18,121 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:16:18,121 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:16:18,122 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:16:18,122 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-01-15 12:16:18,122 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:16:18,122 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:16:18,123 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-01-15 12:16:18,123 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-01-15 12:16:18,123 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-01-15 12:16:18,123 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-01-15 12:16:18,123 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-01-15 12:16:18,123 INFO [main][ClientWorker.java:169] - [fixed-192.168.30.100_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-01-15 12:16:18,123 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:16:18,123 INFO [main][CacheData.java:92] - [fixed-192.168.30.100_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-01-15 12:16:18,159 INFO [Thread-25][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9998
+2024-01-15 12:16:18,159 INFO [Thread-25][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9998
+2024-01-15 12:16:46,655 INFO [xxl-job, EmbedServer bizThreadPool-370115890][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:2, handler:com.xxl.job.core.handler.impl.MethodJobHandler@248d2cec[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:16:46,655 INFO [xxl-job, EmbedServer bizThreadPool-370115890][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:2, handler:com.xxl.job.core.handler.impl.MethodJobHandler@248d2cec[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:16:46,877 INFO [xxl-job, EmbedServer bizThreadPool-340789895][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:2, handler:com.xxl.job.core.handler.impl.MethodJobHandler@622ba721[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:16:46,877 INFO [xxl-job, EmbedServer bizThreadPool-340789895][XxlJobExecutor.java:246] - >>>>>>>>>>> xxl-job regist JobThread success, jobId:2, handler:com.xxl.job.core.handler.impl.MethodJobHandler@622ba721[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-01-15 12:17:38,275 WARN [Thread-31][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:17:38,275 WARN [Thread-31][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:17:38,275 WARN [Thread-31][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:17:38,275 WARN [Thread-31][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:17:38,275 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:17:38,275 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:17:38,277 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:17:38,277 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:17:38,302 WARN [Thread-31][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:17:38,302 WARN [Thread-31][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-15 12:17:38,302 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:17:38,302 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-15 12:17:38,303 WARN [Thread-31][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:17:38,303 WARN [Thread-31][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-15 12:17:38,303 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:17:38,303 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-15 12:17:38,777 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:17:38,777 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:17:38,779 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:17:38,779 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:17:38,779 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8832 from beat map.
+2024-01-15 12:17:38,779 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8832 from beat map.
+2024-01-15 12:17:38,779 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8832, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:17:38,779 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8832, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:17:38,782 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:17:38,782 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:17:38,782 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:17:38,782 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:17:38,809 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:17:38,809 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-15 12:17:38,811 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:17:38,811 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-15 12:17:38,811 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
+2024-01-15 12:17:38,811 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: xuecheng-plus-project@@media-api:192.168.137.1:8830 from beat map.
+2024-01-15 12:17:38,811 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:17:38,811 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.137.1', port=8830, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-15 12:17:38,813 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:17:38,813 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-15 12:17:38,814 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:17:38,814 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-15 12:17:39,169 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:17:39,169 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:17:39,169 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:17:39,169 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:17:39,323 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@media-api\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1705292177678,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8853294824733} from /192.168.30.100
+2024-01-15 12:17:39,323 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@media-api\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1705292177678,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8853294593727} from /192.168.30.100
+2024-01-15 12:17:39,323 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@media-api\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1705292177678,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8853294824733} from /192.168.30.100
+2024-01-15 12:17:39,323 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"xuecheng-plus-project@@media-api\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1705292177678,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":8853294593727} from /192.168.30.100
+2024-01-15 12:17:39,324 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(2) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000},{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:17:39,324 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(2) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000},{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:17:39,324 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(2) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000},{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:17:39,324 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(2) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.137.1#8832#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8832,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000},{"instanceId":"192.168.137.1#8830#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.137.1","port":8830,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-01-15 12:17:39,325 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@media-api@@DEFAULT -> []
+2024-01-15 12:17:39,325 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@media-api@@DEFAULT -> []
+2024-01-15 12:17:39,325 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@media-api@@DEFAULT -> []
+2024-01-15 12:17:39,325 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: xuecheng-plus-project@@media-api@@DEFAULT -> []
+2024-01-15 12:17:39,954 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:17:39,954 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:17:41,800 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:17:41,800 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-15 12:17:41,801 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:17:41,801 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-15 12:17:42,976 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:17:42,976 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:17:42,977 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:17:42,977 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:17:42,977 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:17:42,977 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:17:42,977 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:17:42,977 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:17:42,977 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:17:42,977 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:17:42,977 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:17:42,977 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:17:42,978 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:17:42,978 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:17:42,978 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:17:42,978 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:17:42,978 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:17:42,978 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:17:42,978 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:17:42,978 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:17:42,978 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:17:42,978 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:17:42,979 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:17:42,979 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:17:42,981 INFO [Thread-25][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:17:42,981 INFO [Thread-25][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:17:42,986 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:8831/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:17:42,986 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:8831/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:17:42,988 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:17:42,988 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:17:42,988 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:17:42,988 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:17:42,995 INFO [xxl-job, JobThread-2-1705292206655][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-2-1705292206655,10,main]
+2024-01-15 12:17:42,995 INFO [xxl-job, JobThread-2-1705292206655][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-2-1705292206655,10,main]
+2024-01-15 12:17:42,997 INFO [xxl-job, JobThread-3-1705292156727][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-3-1705292156727,10,main]
+2024-01-15 12:17:42,997 INFO [xxl-job, JobThread-3-1705292156727][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-3-1705292156727,10,main]
+2024-01-15 12:17:42,997 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:17:42,997 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:17:42,997 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:17:42,997 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:17:42,998 INFO [Thread-24][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:17:42,998 INFO [Thread-24][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:17:44,810 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:17:44,810 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-15 12:17:47,821 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:17:47,821 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-15 12:17:47,822 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:17:47,822 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-15 12:17:47,822 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:17:47,822 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-15 12:17:47,822 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:17:47,822 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-15 12:17:47,823 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:17:47,823 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-15 12:17:47,823 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:17:47,823 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-15 12:17:47,823 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:17:47,823 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-15 12:17:47,824 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:17:47,824 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-15 12:17:47,824 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:17:47,824 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-15 12:17:47,824 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:17:47,824 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-15 12:17:47,824 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:17:47,824 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-15 12:17:47,825 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:17:47,825 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-15 12:17:47,827 INFO [Thread-25][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:17:47,827 INFO [Thread-25][EmbedServer.java:91] - >>>>>>>>>>> xxl-job remoting server stop.
+2024-01-15 12:17:47,831 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:9998/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:17:47,831 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:87] - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.30.1:9998/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-15 12:17:47,832 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:17:47,832 INFO [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:105] - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2024-01-15 12:17:47,832 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:17:47,832 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-01-15 12:17:47,839 INFO [xxl-job, JobThread-2-1705292206877][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-2-1705292206877,10,main]
+2024-01-15 12:17:47,839 INFO [xxl-job, JobThread-2-1705292206877][JobThread.java:250] - >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[xxl-job, JobThread-2-1705292206877,10,main]
+2024-01-15 12:17:47,839 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:17:47,839 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-01-15 12:17:47,840 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:17:47,840 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-01-15 12:17:47,840 INFO [Thread-24][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-01-15 12:17:47,840 INFO [Thread-24][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
